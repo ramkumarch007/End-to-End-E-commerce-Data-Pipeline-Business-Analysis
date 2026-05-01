@@ -42,17 +42,25 @@ This project solves that problem by converting raw data into structured insights
 ---
 
 ## 📂 Project Structure
-|── Python/
-| |── ETL.py # ETL pipeline Script
-| ├── products.csv
-| ├── users.csv
-| ├── orders.csv 
-| ├── sql_queries/ # SQL analysis queries
-| ├── Ecommerce_Project.pbix
-| ├── PowerBi reports/
-| | ├── Overview.png
-| | ├── Product & Price Analysis.png
-| ├── Readme.md
+
+Project/
+│
+├── python/
+│   └── ETL.py                      # ETL pipeline Script
+│
+├── products.csv
+├── users.csv
+├── orders.csv
+│
+├── sql_queries/                    # SQL analysis queries
+│
+├── Ecommerce_Project.pbix          # Power BI report file
+│
+├── PowerBi reports/
+│   ├── Overview.png
+│   └── Product & Price Analysis.png
+│
+└── README.md
 ---
 
 ## 📊 Power BI Dashboard
